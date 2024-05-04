@@ -1,0 +1,99 @@
+/* Objective container styles */
+.objective-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #eae7dd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Title section styles */
+  .title-section {
+    margin-bottom: 3%;
+  }
+
+  .title-section h2 {
+    font-size: 28px;
+    color: #4c4b42;
+    margin-bottom: 3%;
+  }
+
+  /* Progress section styles */
+  .progress-section {
+    margin-bottom: 3%;
+  }
+
+  .progress-bar-container {
+    margin-left: 0% !important;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background-color: #6e44ff;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+
+  .progress-bar span {
+    font-size: 15px;
+  }
+
+  /* Key result styles */
+  .key-result {
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 1%; 
+  }
+
+  .key-result-text {
+    margin-left: 10px; /* Adjust the spacing between the icon and text */
+  }
+
+  .progress-bar-container {
+    width: calc(100%);
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .progress-bar {
+    height: 100%;
+    background-color: #6e44ff;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    box-sizing: border-box;
+  }
+
+  
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+    float: right; /* Float the icons to the right */
+  }
+  
+
+  /* Back link styles */
+  .back-link {
+    margin-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }

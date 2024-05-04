@@ -1,0 +1,39 @@
+.add-document-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-right: 50px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: none; 
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  
+  .form-title {
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  
+  .input-field {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important; 
+    width: 100%; 
+    padding: 5px; 
+  }
+  
+  .back-icon {
+    top: -10px;
+    left: -190px;
+  }
+  
+  @media (max-width: 600px) {
+    .payment-form {
+      width: 90%; 
+    }
+  }
+  

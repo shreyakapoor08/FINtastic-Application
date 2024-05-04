@@ -1,0 +1,106 @@
+.expenses-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.search-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search-container input[type="text"],
+.search-container select {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.search-container select option {
+    padding: 8px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+.search-container select:hover option {
+    background-color: #ccc;
+}
+.search-container button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-left: auto;
+    color: white;
+    background-color: #4c4b42;
+}
+.search-container button:hover {
+    background-color: #333;
+}
+.no-expense-message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+}
+
+.expense-list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expense-item {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #f5f5f5; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+.expense-item:hover{
+    transform: scale(1.05);
+    border-width: 2px;
+}
+
+@media screen and (max-width: 992px) {
+    .expense-item {
+        flex: 0 0 calc(50% - 20px); 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .expense-item {
+        flex: 0 0 calc(100% - 20px); 
+    }
+}
+
+.paid {
+    border-color: red;
+}
+
+.received {
+    border-color: green;
+}
+
+@media screen and (max-width: 600px) {
+    .search-container input[type="text"],
+    .search-container select,
+    .search-container button {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}

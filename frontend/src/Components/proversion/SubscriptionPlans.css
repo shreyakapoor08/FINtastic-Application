@@ -1,0 +1,63 @@
+/* Author -  */
+/* Shreya Kapoor */
+
+.subscription-plans h1 {
+  color: black;
+}
+
+.subscription-plans {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px;
+  color: black;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.plan-card {
+  max-width: 200px;
+  max-height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+  overflow: hidden; 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+  padding: 60px;
+}
+
+.plan-card .MuiCardContent-root {
+  padding: 70px;
+  background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);
+  color: #fff;
+}
+
+.pay-now-button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.pay-now-button:hover {
+  background: linear-gradient(135deg, #6A00E0 0%, #8E2DE2 100%);
+}
+
+
+@media (max-width: 768px) {
+  .plans-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    margin-bottom: 20px;
+  }
+}

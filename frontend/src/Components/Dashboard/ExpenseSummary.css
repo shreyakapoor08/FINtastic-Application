@@ -1,0 +1,25 @@
+.paper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .labelContainer {
+    width: 50%;
+  }
+  
+  .chartContainer {
+    width: 50%;
+  }
+  
+  .labelItem {
+    margin-bottom: 5px;
+  }
+  

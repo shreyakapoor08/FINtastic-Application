@@ -1,0 +1,56 @@
+/* CustomPopUp.css */
+
+.custom-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Drop shadow */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .custom-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .custom-popup-buttons button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .custom-popup-buttons button:first-child {
+    background-color: #4caf50; /* Green */
+    color: white;
+  }
+  
+  .custom-popup-buttons button:last-child {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .custom-popup-buttons button:hover {
+    opacity: 0.8;
+  }
+  

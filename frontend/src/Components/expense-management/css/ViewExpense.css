@@ -1,0 +1,53 @@
+.view-expense-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .expense-title {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.2rem; 
+    margin-bottom: 10px;
+  }
+  
+  .expense-details {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px; 
+  }
+  
+  .expense-details p {
+    font-size: 0.9rem; 
+    margin: 0; 
+    font-weight: normal; 
+  } 
+  
+  .expense-details p strong {
+    font-weight: bold;
+  }
+  
+  .buttons-container {
+    display: flex; 
+    justify-content: flex-end; 
+    margin-top: 20px;
+  }
+  
+  .buttons-container button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    font-size: 1rem; 
+    background-color: #6e6b50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .buttons-container button:hover {
+    background-color: #4c4b42;
+  }
+  
